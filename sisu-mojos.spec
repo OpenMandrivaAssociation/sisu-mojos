@@ -1,7 +1,7 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:           sisu-mojos
 Version:        0.1.0
-Release:        2%{?dist}
+Release:        2.0%{?dist}
 Summary:        Sisu plugin for Apache Maven
 License:        EPL
 URL:            http://www.eclipse.org/sisu
@@ -52,3 +52,14 @@ mv releases/%{version}/* .
 
 %files javadoc -f .mfiles-javadoc
 %doc LICENSE.txt
+
+%changelog
+* Thu Nov 14 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0.1.0-2
+- Obsolete sisu-maven-plugin
+
+* Wed Nov 13 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0.1.0-1
+- Update to upstream version 0.1.0
+
+* Mon Sep 23 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0.0.0-0.1.M5
+- Initial packaging.
+- Fix unowned directory
