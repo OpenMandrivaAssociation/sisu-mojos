@@ -1,8 +1,9 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           sisu-mojos
 Version:        0.1.0
-Release:        2.0%{?dist}
+Release:        2.1
 Summary:        Sisu plugin for Apache Maven
+Group:		Development/Java
 License:        EPL
 URL:            http://www.eclipse.org/sisu
 BuildArch:      noarch
@@ -18,7 +19,7 @@ BuildRequires:  mvn(org.codehaus.plexus:plexus-utils)
 BuildRequires:  mvn(org.eclipse.sisu:org.eclipse.sisu.inject)
 BuildRequires:  mvn(org.slf4j:slf4j-api)
 BuildRequires:  mvn(org.slf4j:slf4j-nop)
-BuildRequires:  mvn(org.sonatype.oss:oss-parent)
+BuildRequires:  mvn(org.sonatype.oss:oss-parent:pom:)
 BuildRequires:  mvn(org.sonatype.sisu:sisu-guice)
 
 Obsoletes:      sisu-maven-plugin < 1:0.1
