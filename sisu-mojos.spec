@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           sisu-mojos
 Version:        0.1.0
-Release:        2.1
+Release:        2.2
 Summary:        Sisu plugin for Apache Maven
 Group:		Development/Java
 License:        EPL
