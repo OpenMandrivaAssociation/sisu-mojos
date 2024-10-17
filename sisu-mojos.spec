@@ -5,7 +5,7 @@ Release:        2.2
 Summary:        Sisu plugin for Apache Maven
 Group:		Development/Java
 License:        EPL
-URL:            http://www.eclipse.org/sisu
+URL:            https://www.eclipse.org/sisu
 BuildArch:      noarch
 
 Source0:        http://git.eclipse.org/c/sisu/org.eclipse.sisu.mojos.git/snapshot/releases/%{version}.tar.bz2#/%{name}-%{version}.tar.bz2
